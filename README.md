@@ -7,7 +7,8 @@
 </p>
 
 <p align="center">
-  <a href="mailto:cybellemartins11@gmail.com"><img src="https://img.shields.io/badge/E--mail-7c3aed?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail" /></a></p>
+  <a href="mailto:cybellemartins11@gmail.com"><img src="https://img.shields.io/badge/E--mail-7c3aed?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail" /></a>
+</p>
 
 ---
 
@@ -20,10 +21,13 @@ na pastelaria da família. Foi lá que aprendi que um sistema só é bom quando 
 problema de quem está do outro lado. Por isso gosto de **entender a regra de negócio
 antes de escrever a primeira linha**, e de conseguir explicar cada parte do que construo.
 
-- 🎯 Foco: **desenvolvimento full stack**. Minha base é o **backend com Java**, e estou construindo o lado do frontend (JavaScript, depois TypeScript e React)
-- 🧪 Me importo com: **testes, segurança** e operações que não podem dar errado (como dinheiro)
-- 🧭 Também me interessam: modelagem de dados, ética em Engenharia de Software e uso responsável de IA
-- 🌍 Gosto de projetos com **impacto social** e que apoiam a aprendizagem
+- 🎯 **Foco:** desenvolvimento **full stack**. Minha base é o backend com Java, e estou construindo o lado do frontend (JavaScript, depois TypeScript e React)
+
+- 🧪 **Me importo com:** testes, segurança e operações que não podem dar errado (como dinheiro)
+
+- 🧭 **Também me interessam:** modelagem de dados, ética em Engenharia de Software e uso responsável de IA
+
+- 🌍 **Gosto de** projetos com impacto social e que apoiam a aprendizagem
 
 ---
 
@@ -38,27 +42,39 @@ antes de escrever a primeira linha**, e de conseguir explicar cada parte do que 
 ## 🚀 Projetos
 
 ### 🩺 Vitallis · *projeto pessoal*
-Sistema para **profissionais autônomos da saúde**. O backend cuida de contas, pacientes,
-agendamentos e controle financeiro: cobranças, pagamentos, pacotes de sessões e créditos.
-A arquitetura é **multi-tenant**: cada profissional só enxerga os próprios dados, com
-controle de acesso por conta e papel. Também cuido da **consistência das operações
-financeiras**, usando transações para que um pagamento nunca fique registrado pela metade.
+
+Sistema para **profissionais autônomos da saúde**, com contas, pacientes, agendamentos e controle financeiro (cobranças, pagamentos, pacotes de sessões e créditos).
+
+- **Multi-tenant:** cada profissional só enxerga os próprios dados, com controle de acesso por conta e papel.
+- **Dinheiro sem erro:** transações garantem que um pagamento nunca fique registrado pela metade.
+
 `Java 25` `Spring Boot` `Spring Security` `JWT (RSA)` `PostgreSQL` `Flyway` `Testcontainers`
 
+<br>
+
 ### 🥟 Sistema de gestão para pastelaria e peixaria · *projeto pessoal, em uso real*
-Nasceu de uma necessidade da minha família: tirar o controle do caderno. Tem caixa do dia,
-vendas, despesas, repasses ao entregador e relatórios. Funciona no computador e no celular.
-O escopo mudou várias vezes conforme eu entendia melhor o negócio.
-Tem **221 testes automatizados**, com integração contra um PostgreSQL real.
+
+Nasceu de uma necessidade da minha família: tirar o controle do caderno.
+
+- **O que faz:** caixa do dia, vendas, despesas, repasses ao entregador e relatórios, no computador e no celular.
+- **Qualidade:** 221 testes automatizados, com integração contra um PostgreSQL real.
+- **Aprendizado:** o escopo mudou várias vezes conforme eu entendia melhor o negócio.
+
 `Java 25` `Spring Boot` `PostgreSQL` `Flyway` `Testcontainers` `JavaScript`
 
+<br>
+
 ### 📚 EDUPlanner · *projeto acadêmico em equipe*
+
 Organizador de estudos com disciplinas, tarefas, eventos, anotações e dashboard.
-O backend usa **Javalin** com páginas geradas em **Thymeleaf**, acesso ao banco
-direto por **JDBC** (com pool de conexões HikariCP) e login por **JWT** com senhas em
-**BCrypt**. Os testes usam JUnit e Mockito, mais testes de integração que fazem
-requisições HTTP reais. O projeto tem uma pipeline de integração e entrega no **GitHub Actions**.
+
+- **Backend:** Javalin com páginas em Thymeleaf e acesso ao banco direto por JDBC (pool HikariCP).
+- **Segurança:** login com JWT e senhas protegidas com BCrypt.
+- **Testes e entrega:** JUnit, Mockito e testes HTTP de integração, com pipeline no GitHub Actions.
+
 `Java 25` `Javalin` `Thymeleaf` `PostgreSQL` `JDBC` `JWT` `Docker` `GitHub Actions`
+
+<br>
 
 <sub>🔒 Alguns repositórios são privados. Posso mostrar o código e explicar as decisões numa conversa.</sub>
 
@@ -66,10 +82,11 @@ requisições HTTP reais. O projeto tem uma pipeline de integração e entrega n
 
 ## 🦥 SLOTH: Liga Acadêmica de Ética em Engenharia de Software
 
-Sou **Diretora de Pesquisa** da SLOTH, na UFPB Campus IV. A liga tem foco em formação
-crítica, impacto social e **uso ético de IA no desenvolvimento de software**. Organizo as
-leituras e discussões de artigos, as duplas de pesquisa e a comunicação com integrantes
-e professores.
+Sou **Diretora de Pesquisa** da SLOTH, na UFPB Campus IV.
+
+A liga tem foco em formação crítica, impacto social e **uso ético de IA no desenvolvimento de software**.
+
+Organizo as leituras e discussões de artigos, as duplas de pesquisa e a comunicação com integrantes e professores.
 
 ---
 
