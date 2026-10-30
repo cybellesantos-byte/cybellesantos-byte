@@ -1,9 +1,9 @@
 <!-- Banner do topo (gerado pelo capsule-render) -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f766e,100:7c3aed&height=190&section=header&text=Cybelle%20Martins&fontSize=44&fontColor=ffffff&fontAlignY=36&desc=Backend%20Java%20%C2%B7%20Spring%20Boot%20%C2%B7%20Qualidade%20de%20software&descSize=17&descAlignY=58&animation=fadeIn" alt="Cybelle Martins" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f766e,100:7c3aed&height=190&section=header&text=Cybelle%20Martins&fontSize=44&fontColor=ffffff&fontAlignY=36&desc=Full%20stack%20em%20forma%C3%A7%C3%A3o%20%C2%B7%20Java%20%C2%B7%20Spring%20Boot%20%C2%B7%20JavaScript&descSize=17&descAlignY=58&animation=fadeIn" alt="Cybelle Martins" />
 
 <!-- Comanda: o pedido de hoje, do balcão para o código -->
 <p align="center">
-  <img src="assets/comanda.svg" width="420" alt="Comanda nº 004: Backend Java, APIs REST, PostgreSQL e testes em uso; JavaScript no forno; TypeScript e React na fila. Aberta a estágio." />
+  <img src="assets/comanda.svg" width="420" alt="Comanda nº 004: Backend Java, APIs REST, PostgreSQL, testes e HTML/CSS em uso; JavaScript no forno; TypeScript e React na fila. Aberta a estágio." />
 </p>
 
 <p align="center">
@@ -20,7 +20,7 @@ na pastelaria da família. Foi lá que aprendi que um sistema só é bom quando 
 problema de quem está do outro lado. Por isso gosto de **entender a regra de negócio
 antes de escrever a primeira linha**, e de conseguir explicar cada parte do que construo.
 
-- 🎯 Foco: **desenvolvimento backend com Java**, ampliando aos poucos para o frontend
+- 🎯 Foco: **desenvolvimento full stack**. Minha base é o **backend com Java**, e estou construindo o lado do frontend (JavaScript, depois TypeScript e React)
 - 🧪 Me importo com: **testes, segurança** e operações que não podem dar errado (como dinheiro)
 - 🧭 Também me interessam: modelagem de dados, ética em Engenharia de Software e uso responsável de IA
 - 🌍 Gosto de projetos com **impacto social** e que apoiam a aprendizagem
@@ -82,7 +82,7 @@ e professores.
 | 🌳 | **Estruturas de dados** | árvores de busca, heaps, HeapSort e Skip List |
 | 🇺🇸 | **Inglês** | vocabulário, verbos e tempos verbais |
 
-**Próximos passos:** TypeScript ➜ React, para construir interfaces e conectá-las ao backend.
+**Próximos passos:** TypeScript ➜ React, para construir interfaces completas e conectá-las ao meu backend em Java.
 
 ---
 
