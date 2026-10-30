@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="555" viewBox="0 0 440 555" role="img" aria-label="Comanda nº 004: Backend Java, APIs REST, PostgreSQL e testes em uso; JavaScript no forno; TypeScript e React na fila. Aberta a estágio.">
+<style>
+  .t { font-family: 'Courier New', Courier, monospace; fill: #2b2620; }
+  .h { font-size: 22px; font-weight: 700; letter-spacing: 4px; }
+  .s { font-size: 13px; fill: #6b604f; }
+  .c { font-size: 12px; font-weight: 700; fill: #8a7d66; letter-spacing: 1px; }
+  .i { font-size: 14px; }
+  .uso { fill: #0f766e; font-weight: 700; }
+  .forno { fill: #c2410c; font-weight: 700; animation: pisca 1.8s ease-in-out infinite; }
+  .fila { fill: #7c3aed; font-weight: 700; }
+  @keyframes pisca { 0%, 100% { opacity: 1; } 50% { opacity: .3; } }
+  .carimbo { transform-box: fill-box; transform-origin: center; animation: carimba .5s cubic-bezier(.3,1.6,.6,1) 1.2s both; }
+  @keyframes carimba {
+    0% { opacity: 0; transform: scale(2.4) rotate(-9deg); }
+    100% { opacity: .92; transform: scale(1) rotate(-9deg); }
+  }
+</style>
+<path d="M10,10 H430 V530 L420,540 L410,530 L400,540 L390,530 L380,540 L370,530 L360,540 L350,530 L340,540 L330,530 L320,540 L310,530 L300,540 L290,530 L280,540 L270,530 L260,540 L250,530 L240,540 L230,530 L220,540 L210,530 L200,540 L190,530 L180,540 L170,530 L160,540 L150,530 L140,540 L130,530 L120,540 L110,530 L100,540 L90,530 L80,540 L70,530 L60,540 L50,530 L40,540 L30,530 L20,540 L10,530 Z" transform="translate(4,5)" fill="#000" opacity=".25"/>
+<path d="M10,10 H430 V530 L420,540 L410,530 L400,540 L390,530 L380,540 L370,530 L360,540 L350,530 L340,540 L330,530 L320,540 L310,530 L300,540 L290,530 L280,540 L270,530 L260,540 L250,530 L240,540 L230,530 L220,540 L210,530 L200,540 L190,530 L180,540 L170,530 L160,540 L150,530 L140,540 L130,530 L120,540 L110,530 L100,540 L90,530 L80,540 L70,530 L60,540 L50,530 L40,540 L30,530 L20,540 L10,530 Z" fill="#fbf4e2"/>
+<rect x="10" y="10" width="420" height="8" fill="#0f766e"/>
+
+<text class="t h" x="220" y="54" text-anchor="middle">COMANDA Nº 004</text>
+<text class="t s" x="220" y="77" text-anchor="middle">Cybelle Martins</text>
+<text class="t s" x="220" y="95" text-anchor="middle">Sistemas de Informação · UFPB</text>
+<line x1="30" y1="112" x2="410" y2="112" stroke="#b9ad94" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text class="t c" x="34" y="131">ITEM</text>
+<text class="t c" x="406" y="131" text-anchor="end">SITUAÇÃO</text>
+<line x1="30" y1="140" x2="410" y2="140" stroke="#b9ad94" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <text class="t i" x="34" y="160">Backend Java + Spring Boot</text><text class="t i uso" x="406" y="160" text-anchor="end">EM USO</text>
+  <text class="t i" x="34" y="187">APIs REST + Spring Security</text><text class="t i uso" x="406" y="187" text-anchor="end">EM USO</text>
+  <text class="t i" x="34" y="214">PostgreSQL + JPA + Flyway</text><text class="t i uso" x="406" y="214" text-anchor="end">EM USO</text>
+  <text class="t i" x="34" y="241">Testes: JUnit e Mockito</text><text class="t i uso" x="406" y="241" text-anchor="end">EM USO</text>
+  <text class="t i" x="34" y="268">Regra de negócio entendida</text><text class="t i uso" x="406" y="268" text-anchor="end">EM USO</text>
+  <text class="t i" x="34" y="295">JavaScript</text><text class="t i forno" x="406" y="295" text-anchor="end">NO FORNO</text>
+  <text class="t i" x="34" y="322">TypeScript + React</text><text class="t i fila" x="406" y="322" text-anchor="end">NA FILA</text>
+<line x1="30" y1="340" x2="410" y2="340" stroke="#b9ad94" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text class="t s" x="34" y="364">OBS: entende o pedido antes</text>
+<text class="t s" x="34" y="382">de começar a fritar.</text>
+<line x1="30" y1="398" x2="410" y2="398" stroke="#b9ad94" stroke-width="1.5" stroke-dasharray="6 5"/>
+
+<g class="carimbo">
+  <rect x="96" y="414" width="248" height="46" rx="6" fill="none" stroke="#7c3aed" stroke-width="3"/>
+  <rect x="102" y="420" width="236" height="34" rx="3" fill="none" stroke="#7c3aed" stroke-width="1.2"/>
+  <text x="220" y="443" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="17" font-weight="700" letter-spacing="2" fill="#7c3aed">ABERTA A ESTÁGIO</text>
+</g>
+
+<g transform="translate(120,476)" fill="#2b2620"><rect x="0" y="0" width="6" height="26"/><rect x="12" y="0" width="4" height="26"/><rect x="22" y="0" width="6" height="26"/><rect x="36" y="0" width="2" height="26"/><rect x="44" y="0" width="6" height="26"/><rect x="56" y="0" width="4" height="26"/><rect x="70" y="0" width="2" height="26"/><rect x="80" y="0" width="2" height="26"/><rect x="92" y="0" width="2" height="26"/><rect x="100" y="0" width="4" height="26"/><rect x="114" y="0" width="2" height="26"/><rect x="124" y="0" width="2" height="26"/><rect x="132" y="0" width="6" height="26"/><rect x="146" y="0" width="2" height="26"/><rect x="158" y="0" width="2" height="26"/><rect x="168" y="0" width="4" height="26"/><rect x="178" y="0" width="6" height="26"/><rect x="190" y="0" width="2" height="26"/></g>
+<text class="t s" x="220" y="520" text-anchor="middle" letter-spacing="2">OBRIGADA PELA VISITA!</text>
+</svg>
