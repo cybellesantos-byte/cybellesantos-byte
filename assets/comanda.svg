@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="440" height="555" viewBox="0 0 440 555" role="img" aria-label="Comanda nº 004: Backend Java, APIs REST, PostgreSQL e testes em uso; JavaScript no forno; TypeScript e React na fila. Aberta a estágio.">
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="555" viewBox="0 0 440 555" role="img" aria-label="Comanda nº 004: Backend Java, APIs REST, PostgreSQL, testes e HTML/CSS em uso; JavaScript no forno; TypeScript e React na fila. Aberta a estágio.">
 <style>
   .t { font-family: 'Courier New', Courier, monospace; fill: #2b2620; }
   .h { font-size: 22px; font-weight: 700; letter-spacing: 4px; }
@@ -30,7 +30,7 @@
   <text class="t i" x="34" y="187">APIs REST + Spring Security</text><text class="t i uso" x="406" y="187" text-anchor="end">EM USO</text>
   <text class="t i" x="34" y="214">PostgreSQL + JPA + Flyway</text><text class="t i uso" x="406" y="214" text-anchor="end">EM USO</text>
   <text class="t i" x="34" y="241">Testes: JUnit e Mockito</text><text class="t i uso" x="406" y="241" text-anchor="end">EM USO</text>
-  <text class="t i" x="34" y="268">Regra de negócio entendida</text><text class="t i uso" x="406" y="268" text-anchor="end">EM USO</text>
+  <text class="t i" x="34" y="268">HTML + CSS + Bootstrap</text><text class="t i uso" x="406" y="268" text-anchor="end">EM USO</text>
   <text class="t i" x="34" y="295">JavaScript</text><text class="t i forno" x="406" y="295" text-anchor="end">NO FORNO</text>
   <text class="t i" x="34" y="322">TypeScript + React</text><text class="t i fila" x="406" y="322" text-anchor="end">NA FILA</text>
 <line x1="30" y1="340" x2="410" y2="340" stroke="#b9ad94" stroke-width="1.5" stroke-dasharray="6 5"/>
