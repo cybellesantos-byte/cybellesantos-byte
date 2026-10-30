@@ -97,7 +97,6 @@ Organizo as leituras e discussões de artigos, as duplas de pesquisa e a comunic
 | 🟨 | **JavaScript** | funções, objetos, protótipos, herança e polimorfismo |
 | ☕ | **Backend Java** | arquitetura, segurança e regras de negócio mais complexas |
 | 🌳 | **Estruturas de dados** | árvores de busca, heaps, HeapSort e Skip List |
-| 🇺🇸 | **Inglês** | vocabulário, verbos e tempos verbais |
 
 **Próximos passos:** TypeScript ➜ React, para construir interfaces completas e conectá-las ao meu backend em Java.
 
