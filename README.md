@@ -56,7 +56,9 @@ Sistema para **profissionais autônomos da saúde**, com contas, pacientes, agen
 
 Nasceu de uma necessidade da minha família: tirar o controle do caderno. Hoje está **no ar**, com uma parte aberta ao público.
 
-🎮 **[Testar a demo do painel](https://cybellesantos-byte.github.io/galo-e-cia-demo/)** (dados fictícios, dá para vender, abrir e fechar o caixa e ver os relatórios)
+🎮 **[Testar a demo do painel](https://cybellesantos-byte.github.io/galo-e-cia-demo/)** · 🍽️ **[Ver o cardápio do cliente (demo)](https://cybellesantos-byte.github.io/galo-e-cia-demo/cardapio.html)**
+
+<sub>Tudo fictício: dá para vender, abrir e fechar o caixa e ver os relatórios. O pedido do cardápio só mostra a mensagem, não envia nada.</sub>
 
 - **Cardápio público (sem login):** o cliente vê o que tem hoje, escolhe os itens, retirada ou entrega, Pix ou dinheiro, e toca em "Pedir pelo WhatsApp" com o pedido já escrito.
 - **Painel interno (com login):** caixa do dia, vendas, despesas, repasses ao entregador e relatórios, no computador e no celular.
