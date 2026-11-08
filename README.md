@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="mailto:cybellemartins11@gmail.com"><img src="https://img.shields.io/badge/E--mail-7c3aed?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail" /></a>
+  <a href="mailto:cybelle.santos@dcx.ufpb.br"><img src="https://img.shields.io/badge/E--mail-7c3aed?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail" /></a>
 </p>
 
 ---
@@ -54,13 +54,18 @@ Sistema para **profissionais autônomos da saúde**, com contas, pacientes, agen
 
 ### 🥟 Sistema de gestão para pastelaria e peixaria · *projeto pessoal, em uso real*
 
-Nasceu de uma necessidade da minha família: tirar o controle do caderno.
+Nasceu de uma necessidade da minha família: tirar o controle do caderno. Hoje está **no ar**, com uma parte aberta ao público.
 
-- **O que faz:** caixa do dia, vendas, despesas, repasses ao entregador e relatórios, no computador e no celular.
+👉 **[Ver o cardápio no ar](https://galo-e-cia.onrender.com/cardapio)** · 🎮 **[Testar a demo do painel](https://cybellesantos-byte.github.io/galo-e-cia-demo/)** (dados fictícios, dá para vender, abrir e fechar o caixa e ver os relatórios)
+
+- **Cardápio público (sem login):** o cliente vê o que tem hoje, escolhe os itens, retirada ou entrega, Pix ou dinheiro, e toca em "Pedir pelo WhatsApp" com o pedido já escrito.
+- **Painel interno (com login):** caixa do dia, vendas, despesas, repasses ao entregador e relatórios, no computador e no celular.
 - **Qualidade:** 221 testes automatizados, com integração contra um PostgreSQL real.
 - **Aprendizado:** o escopo mudou várias vezes conforme eu entendia melhor o negócio.
 
-`Java 25` `Spring Boot` `PostgreSQL` `Flyway` `Testcontainers` `JavaScript`
+<sub>⚠️ O botão "Pedir pelo WhatsApp" abre a conversa da pastelaria de verdade. Só envie se quiser mesmo fazer um pedido.</sub>
+
+`Java 25` `Spring Boot` `PostgreSQL` `Flyway` `Testcontainers` `JavaScript` `Docker`
 
 <br>
 
