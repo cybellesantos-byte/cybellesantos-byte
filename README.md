@@ -7,6 +7,7 @@
 </p>
 
 <p align="center">
+  <a href="https://cybellesantos-byte.github.io/"><img src="https://img.shields.io/badge/Portf%C3%B3lio-0f766e?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfólio" /></a>
   <a href="mailto:cybelle.santos@dcx.ufpb.br"><img src="https://img.shields.io/badge/E--mail-7c3aed?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail" /></a>
 </p>
 
