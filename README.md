@@ -53,7 +53,7 @@ Sistema para **profissionais autônomos da saúde**, com contas, pacientes, agen
 
 ---
 
-### 🥟 Sistema de gestão para pastelaria e peixaria · *projeto pessoal, em uso real*
+### 🥟 Galo & Cia: gestão de pastelaria e peixaria · *projeto pessoal, em uso real*
 
 Nasceu de uma necessidade da minha família: tirar o controle do caderno. Hoje está **no ar**, com uma parte aberta ao público.
 
@@ -65,10 +65,11 @@ Nasceu de uma necessidade da minha família: tirar o controle do caderno. Hoje e
 
 - **Cardápio público (sem login):** o cliente vê o que tem hoje, escolhe os itens, retirada ou entrega, Pix ou dinheiro, e toca em "Pedir pelo WhatsApp" com o pedido já escrito.
 - **Painel interno (com login):** caixa do dia, vendas, despesas, repasses ao entregador e relatórios, no computador e no celular.
-- **Qualidade:** 272 testes automatizados, com integração contra um PostgreSQL real.
+- **Qualidade:** 291 testes automatizados, com integração contra um PostgreSQL real, rodando sozinhos no GitHub Actions a cada mudança. O site só é publicado depois que todos passam.
+- **Segurança:** login com perfis, proteção contra CSRF e cabeçalho CSP em toda resposta, com um teste que acusa qualquer tela fora da regra.
 - **Aprendizado:** o escopo mudou várias vezes conforme eu entendia melhor o negócio.
 
-`Java 25` `Spring Boot` `PostgreSQL` `Flyway` `Testcontainers` `JavaScript` `Docker`
+`Java 25` `Spring Boot` `PostgreSQL` `Flyway` `Testcontainers` `JavaScript` `Docker` `GitHub Actions`
 
 ---
 
