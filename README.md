@@ -113,4 +113,4 @@ Organizo as leituras e discussões de artigos, as duplas de pesquisa e a comunic
   <i>"Um sistema bom é aquele que alguém consegue usar no dia mais corrido da semana."</i>
 </p>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:7c3aed,100:0f766e&height=110&section=footer" alt="" />
+<img width="100%" src="assets/rodape.svg" alt="" />
