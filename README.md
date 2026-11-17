@@ -1,5 +1,5 @@
-<!-- Banner do topo (gerado pelo capsule-render) -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f766e,100:7c3aed&height=190&section=header&text=Cybelle%20Martins&fontSize=44&fontColor=ffffff&fontAlignY=36&desc=Full%20stack%20em%20forma%C3%A7%C3%A3o%20%C2%B7%20Java%20%C2%B7%20Spring%20Boot%20%C2%B7%20JavaScript&descSize=17&descAlignY=58&animation=fadeIn" alt="Cybelle Martins" />
+<!-- Banner do topo: estante de livros e violão (assets/banner.svg) -->
+<img width="100%" src="assets/banner.svg" alt="Cybelle Martins: full stack em formação. Estante de livros com tecnologias e um violão." />
 
 <!-- Comanda: o pedido de hoje, do balcão para o código -->
 <p align="center">
