@@ -1,5 +1,5 @@
 <!-- Banner do topo: estante de livros e violão (assets/banner.svg) -->
-<img width="90%" src="assets/banner.svg" alt="Cybelle Martins: full stack em formação. Estante de livros com tecnologias e um violão." />
+<img width="100%" src="assets/banner.svg" alt="Cybelle Martins: full stack em formação. Estante de livros com tecnologias e um violão." />
 
 <!-- Comanda: o pedido de hoje, do balcão para o código -->
 <p align="center">
