@@ -1,5 +1,5 @@
 <!-- Banner do topo: estante de livros e violão (assets/banner.svg) -->
-<img width="100%" src="assets/banner.svg" alt="Cybelle Martins: full stack em formação. Estante de livros com tecnologias e um violão." />
+<img width="100%" src="assets/banner.svg" alt="Cybelle Martins: full stack em formação. Céu estrelado com uma constelação ligando computador, livro, estudo e violão." />
 
 <!-- Constelação: o que já sei (ligado), o que estou aprendendo (chegando) e o que vem depois (no horizonte) -->
 <p align="center">
