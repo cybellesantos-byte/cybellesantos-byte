@@ -72,17 +72,17 @@
   </g>
 
   <!-- Estrelas coloridas -->
-  <use href="#estrela" class="pisca" x="0" y="0" transform="translate(30,70) scale(.9)" fill="#f472b6"/>
-  <use href="#estrela" class="pisca p2" transform="translate(170,36) scale(.7)" fill="#facc15"/>
-  <use href="#estrela" class="pisca p3" transform="translate(342,232) scale(.8)" fill="#22d3ee"/>
-  <use href="#estrela" class="pisca p4" transform="translate(470,52) scale(1)" fill="#a78bfa"/>
-  <use href="#estrela" class="pisca" transform="translate(540,206) scale(.7)" fill="#34d399"/>
-  <use href="#estrela" class="pisca p2" transform="translate(575,92) scale(.6)" fill="#fb923c"/>
-  <use href="#estrela" class="pisca p3" transform="translate(965,38) scale(.9)" fill="#f472b6"/>
-  <use href="#estrela" class="pisca p4" transform="translate(975,200) scale(.7)" fill="#facc15"/>
-  <use href="#estrela" class="pisca" transform="translate(700,30) scale(.6)" fill="#22d3ee"/>
-  <use href="#estrela" class="pisca p3" transform="translate(220,250) scale(.6)" fill="#a78bfa"/>
-  <use href="#estrela" class="pisca p2" transform="translate(410,170) scale(.5)" fill="#34d399"/>
+  <g transform="translate(30,70) scale(.9)"><use href="#estrela" class="pisca" fill="#f472b6"/></g>
+  <g transform="translate(170,36) scale(.7)"><use href="#estrela" class="pisca p2" fill="#facc15"/></g>
+  <g transform="translate(342,232) scale(.8)"><use href="#estrela" class="pisca p3" fill="#22d3ee"/></g>
+  <g transform="translate(470,52) scale(1)"><use href="#estrela" class="pisca p4" fill="#a78bfa"/></g>
+  <g transform="translate(540,206) scale(.7)"><use href="#estrela" class="pisca" fill="#34d399"/></g>
+  <g transform="translate(575,92) scale(.6)"><use href="#estrela" class="pisca p2" fill="#fb923c"/></g>
+  <g transform="translate(965,38) scale(.9)"><use href="#estrela" class="pisca p3" fill="#f472b6"/></g>
+  <g transform="translate(975,200) scale(.7)"><use href="#estrela" class="pisca p4" fill="#facc15"/></g>
+  <g transform="translate(700,30) scale(.6)"><use href="#estrela" class="pisca" fill="#22d3ee"/></g>
+  <g transform="translate(220,250) scale(.6)"><use href="#estrela" class="pisca p3" fill="#a78bfa"/></g>
+  <g transform="translate(410,170) scale(.5)"><use href="#estrela" class="pisca p2" fill="#34d399"/></g>
 
   <!-- Estrela cadente -->
   <g class="cadente"><rect x="560" y="40" width="70" height="1.6" rx=".8" fill="url(#cadente)" transform="rotate(19 630 41)"/></g>
@@ -146,10 +146,10 @@
 
   <!-- Nós da constelação -->
   <g>
-    <use href="#estrela" class="pisca" transform="translate(725,86) scale(.7)" fill="#facc15"/>
-    <use href="#estrela" class="pisca p2" transform="translate(848,101) scale(.7)" fill="#f472b6"/>
-    <use href="#estrela" class="pisca p3" transform="translate(838,165) scale(.7)" fill="#34d399"/>
-    <use href="#estrela" class="pisca p4" transform="translate(715,150) scale(.7)" fill="#22d3ee"/>
+    <g transform="translate(725,86) scale(.7)"><use href="#estrela" class="pisca" fill="#facc15"/></g>
+    <g transform="translate(848,101) scale(.7)"><use href="#estrela" class="pisca p2" fill="#f472b6"/></g>
+    <g transform="translate(838,165) scale(.7)"><use href="#estrela" class="pisca p3" fill="#34d399"/></g>
+    <g transform="translate(715,150) scale(.7)"><use href="#estrela" class="pisca p4" fill="#22d3ee"/></g>
   </g>
 </g>
 </svg>

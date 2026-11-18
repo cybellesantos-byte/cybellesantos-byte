@@ -22,14 +22,14 @@
   </g>
   <polyline points="90,40 160,24 230,44 300,30" fill="none" stroke="#6366f1" stroke-width="1" stroke-dasharray="3 5" opacity=".6"/>
   <polyline points="700,30 770,44 840,24 910,40" fill="none" stroke="#6366f1" stroke-width="1" stroke-dasharray="3 5" opacity=".6"/>
-  <use href="#estrela" class="pisca" transform="translate(90,40)" fill="#22d3ee"/>
-  <use href="#estrela" class="pisca p2" transform="translate(160,24)" fill="#facc15"/>
-  <use href="#estrela" class="pisca p3" transform="translate(230,44)" fill="#f472b6"/>
-  <use href="#estrela" class="pisca p4" transform="translate(300,30)" fill="#34d399"/>
-  <use href="#estrela" class="pisca p4" transform="translate(700,30)" fill="#a78bfa"/>
-  <use href="#estrela" class="pisca p3" transform="translate(770,44)" fill="#fb923c"/>
-  <use href="#estrela" class="pisca p2" transform="translate(840,24)" fill="#22d3ee"/>
-  <use href="#estrela" class="pisca" transform="translate(910,40)" fill="#f472b6"/>
+  <g transform="translate(90,40)"><use href="#estrela" class="pisca" fill="#22d3ee"/></g>
+  <g transform="translate(160,24)"><use href="#estrela" class="pisca p2" fill="#facc15"/></g>
+  <g transform="translate(230,44)"><use href="#estrela" class="pisca p3" fill="#f472b6"/></g>
+  <g transform="translate(300,30)"><use href="#estrela" class="pisca p4" fill="#34d399"/></g>
+  <g transform="translate(700,30)"><use href="#estrela" class="pisca p4" fill="#a78bfa"/></g>
+  <g transform="translate(770,44)"><use href="#estrela" class="pisca p3" fill="#fb923c"/></g>
+  <g transform="translate(840,24)"><use href="#estrela" class="pisca p2" fill="#22d3ee"/></g>
+  <g transform="translate(910,40)"><use href="#estrela" class="pisca" fill="#f472b6"/></g>
   <text class="txt" x="500" y="40" text-anchor="middle">obrigada pela visita <tspan fill="#facc15">✦</tspan></text>
 </g>
 </svg>

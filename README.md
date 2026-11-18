@@ -1,9 +1,9 @@
 <!-- Banner do topo: estante de livros e violão (assets/banner.svg) -->
 <img width="100%" src="assets/banner.svg" alt="Cybelle Martins: full stack em formação. Estante de livros com tecnologias e um violão." />
 
-<!-- Comanda: o pedido de hoje, do balcão para o código -->
+<!-- Constelação: o que já sei (ligado), o que estou aprendendo (chegando) e o que vem depois (no horizonte) -->
 <p align="center">
-  <img src="assets/comanda.svg" width="420" alt="Comanda nº 004: Backend Java, APIs REST, PostgreSQL, testes e HTML/CSS em uso; JavaScript no forno; TypeScript e React na fila. Aberta a estágio." />
+  <img src="assets/status.svg" width="720" alt="Constelação do que já sei: Java, Spring Boot, APIs REST, Spring Security, PostgreSQL, Flyway, JUnit e Mockito, HTML e CSS, Bootstrap e JavaScript. Chegando, aprendendo agora: React. No horizonte: TypeScript. Aberta a estágio." />
 </p>
 
 <p align="center">
