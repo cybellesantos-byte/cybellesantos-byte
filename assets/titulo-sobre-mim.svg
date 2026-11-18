@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="64" viewBox="0 0 1000 64" role="img" aria-label="sobre mim">
+<defs>
+  <linearGradient id="ceu" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#0a1633"/>
+    <stop offset=".6" stop-color="#0a1633" stop-opacity=".55"/>
+    <stop offset="1" stop-color="#0a1633" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="fio" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#facc15" stop-opacity=".7"/>
+    <stop offset="1" stop-color="#facc15" stop-opacity="0"/>
+  </linearGradient>
+  <path id="estrela" d="M0,-8 L1.9,-1.9 L8,0 L1.9,1.9 L0,8 L-1.9,1.9 L-8,0 L-1.9,-1.9 Z"/>
+</defs>
+<style>
+  .t { font-family: Consolas, 'Courier New', monospace; font-size: 26px; font-weight: 700; fill: #f1f5f9; }
+  .pisca { transform-box: fill-box; transform-origin: center; animation: pisca 3s ease-in-out infinite; }
+  @keyframes pisca { 0%, 100% { opacity: .5; transform: scale(.75); } 50% { opacity: 1; transform: scale(1.1); } }
+</style>
+<rect width="1000" height="64" rx="14" fill="url(#ceu)"/>
+<g transform="translate(30,32)"><use href="#estrela" class="pisca" fill="#facc15"/></g>
+<text class="t" x="52" y="41">sobre mim</text>
+<line x1="205" y1="32" x2="980" y2="32" stroke="url(#fio)" stroke-width="1.4" stroke-dasharray="3 6"/>
+<g fill="#e2e8f0" opacity=".45"><circle cx="740" cy="16" r="1"/><circle cx="850" cy="48" r=".9"/><circle cx="940" cy="20" r="1"/></g>
+</svg>

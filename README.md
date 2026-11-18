@@ -4,12 +4,13 @@
 
 <p align="center">
   <a href="https://cybellesantos-byte.github.io/"><img src="https://img.shields.io/badge/Portf%C3%B3lio-0f766e?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfólio" /></a>
+  <a href="https://www.linkedin.com/in/cybelle-martins-417519398"><img src="https://img.shields.io/badge/LinkedIn-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:cybellemartins11@gmail.com"><img src="https://img.shields.io/badge/E--mail-7c3aed?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail" /></a>
 </p>
 
----
+<br>
 
-## 👩‍💻 Sobre mim
+<img width="100%" src="assets/titulo-sobre-mim.svg" alt="Sobre mim" />
 
 Sou estudante do **4º período de Sistemas de Informação** na **UFPB, Campus IV** (Rio Tinto, PB).
 
@@ -18,60 +19,48 @@ na pastelaria da família. Foi lá que aprendi que um sistema só é bom quando 
 problema de quem está do outro lado. Por isso gosto de **entender a regra de negócio
 antes de escrever a primeira linha**, e de conseguir explicar cada parte do que construo.
 
-- 🎯 **Foco:** desenvolvimento **full stack**. Minha base é o backend com Java, e estou construindo o lado do frontend (JavaScript e React, depois TypeScript)
-
+- 🎯 **Foco:** desenvolvimento **full stack**, com base no backend em Java
+- 📚 **Estudando agora:** React, estruturas de dados (árvores de busca, heaps e Skip List) e arquitetura backend
 - 🧪 **Me importo com:** testes, segurança e operações que não podem dar errado (como dinheiro)
-
 - 🧭 **Também me interessam:** modelagem de dados, ética em Engenharia de Software e uso responsável de IA
-
 - 🌍 **Gosto de** projetos com impacto social e que apoiam a aprendizagem
 
----
+<br>
 
-## 🛠️ Ferramentas do dia a dia
+<img width="100%" src="assets/titulo-projetos.svg" alt="Projetos" />
+
+### 🥟 Galo & Cia
+
+**Gestão de pastelaria e peixaria**, em uso real pela minha família.
+
+Tirou o controle do caderno: caixa, vendas, despesas, repasses e relatórios, mais um
+cardápio para o cliente pedir pelo WhatsApp. **291 testes** rodam no GitHub Actions
+a cada mudança, e o site só é publicado se todos passarem.
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,postgres,docker,maven,git,github,githubactions,postman,idea,vscode,html,css,bootstrap,js&perline=8" alt="Java, Spring, PostgreSQL, Docker, Maven, Git, GitHub, GitHub Actions, Postman, IntelliJ, VS Code, HTML, CSS, Bootstrap, JavaScript" />
+  <a href="https://cybellesantos-byte.github.io/galo-e-cia-demo/"><img src="https://img.shields.io/badge/Testar_a_demo-0f766e?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Testar a demo" height="36" /></a>
+  <a href="https://cybellesantos-byte.github.io/galo-e-cia-demo/cardapio.html"><img src="https://img.shields.io/badge/Ver_o_card%C3%A1pio-c2410c?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Ver o cardápio" height="36" /></a>
+  <a href="https://github.com/cybellesantos-byte/galo-e-cia"><img src="https://img.shields.io/badge/Ver_o_c%C3%B3digo-24292f?style=for-the-badge&logo=github&logoColor=white" alt="Ver o código" height="36" /></a>
 </p>
+<p align="center"><sub>A demo é toda fictícia: dá para vender, abrir e fechar o caixa e ver os relatórios, sem acessar dados reais.</sub></p>
 
----
+`Java 25` `Spring Boot` `PostgreSQL` `Testcontainers` `JavaScript` `Docker` `GitHub Actions`
 
-## 🚀 Projetos
+### 🩺 Vitallis
 
-### 🩺 Vitallis · *projeto pessoal*
-
-Sistema para **profissionais autônomos da saúde**, com contas, pacientes, agendamentos e controle financeiro (cobranças, pagamentos, pacotes de sessões e créditos).
+**Gestão para profissionais autônomos da saúde**, projeto pessoal: contas, pacientes,
+agendamentos e controle financeiro, com cobranças, pagamentos, pacotes de sessões e créditos.
 
 - **Multi-tenant:** cada profissional só enxerga os próprios dados, com controle de acesso por conta e papel.
 - **Dinheiro sem erro:** transações garantem que um pagamento nunca fique registrado pela metade.
+- **Segurança:** login com Spring Security e JWT assinado com chaves RSA.
 
 `Java 25` `Spring Boot` `Spring Security` `JWT (RSA)` `PostgreSQL` `Flyway` `Testcontainers`
 
----
+### 📚 EDUPlanner
 
-### 🥟 Galo & Cia: gestão de pastelaria e peixaria · *projeto pessoal, em uso real*
-
-Nasceu de uma necessidade da minha família: tirar o controle do caderno. Hoje está **no ar**, com uma parte aberta ao público.
-
-- 🎮 **[Testar a demo do painel](https://cybellesantos-byte.github.io/galo-e-cia-demo/)**
-- 🍽️ **[Ver o cardápio do cliente (demo)](https://cybellesantos-byte.github.io/galo-e-cia-demo/cardapio.html)**
-- 💻 **[Ver o código](https://github.com/cybellesantos-byte/galo-e-cia)**
-
-<sub>Tudo fictício: dá para vender, abrir e fechar o caixa e ver os relatórios. O pedido do cardápio só mostra a mensagem, não envia nada.</sub>
-
-- **Cardápio público (sem login):** o cliente vê o que tem hoje, escolhe os itens, retirada ou entrega, Pix ou dinheiro, e toca em "Pedir pelo WhatsApp" com o pedido já escrito.
-- **Painel interno (com login):** caixa do dia, vendas, despesas, repasses ao entregador e relatórios, no computador e no celular.
-- **Qualidade:** 291 testes automatizados, com integração contra um PostgreSQL real, rodando sozinhos no GitHub Actions a cada mudança. O site só é publicado depois que todos passam.
-- **Segurança:** login com perfis, proteção contra CSRF e cabeçalho CSP em toda resposta, com um teste que acusa qualquer tela fora da regra.
-- **Aprendizado:** o escopo mudou várias vezes conforme eu entendia melhor o negócio.
-
-`Java 25` `Spring Boot` `PostgreSQL` `Flyway` `Testcontainers` `JavaScript` `Docker` `GitHub Actions`
-
----
-
-### 📚 EDUPlanner · *projeto acadêmico em equipe*
-
-Organizador de estudos com disciplinas, tarefas, eventos, anotações e dashboard.
+**Organizador de estudos**, projeto acadêmico em equipe: disciplinas, tarefas, eventos,
+anotações e um dashboard com o resumo dos estudos.
 
 - **Backend:** Javalin com páginas em Thymeleaf e acesso ao banco direto por JDBC (pool HikariCP).
 - **Segurança:** login com JWT e senhas protegidas com BCrypt.
@@ -79,31 +68,26 @@ Organizador de estudos com disciplinas, tarefas, eventos, anotações e dashboar
 
 `Java 25` `Javalin` `Thymeleaf` `PostgreSQL` `JDBC` `JWT` `Docker` `GitHub Actions`
 
-<sub>🔒 Alguns repositórios são privados. Posso mostrar o código e explicar as decisões numa conversa.</sub>
+<sub>🔒 Vitallis e EDUPlanner são privados. Posso mostrar o código e explicar as decisões numa conversa.</sub>
 
----
+<br>
 
-## 🦥 SLOTH: Liga Acadêmica de Ética em Engenharia de Software
+<img width="100%" src="assets/titulo-ferramentas.svg" alt="Ferramentas do dia a dia" />
 
-Sou **Diretora de Pesquisa** da SLOTH, na UFPB Campus IV.
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java,spring,postgres,docker,maven,git,github,githubactions,postman,idea,vscode,html,css,bootstrap,js&perline=8" alt="Java, Spring, PostgreSQL, Docker, Maven, Git, GitHub, GitHub Actions, Postman, IntelliJ, VS Code, HTML, CSS, Bootstrap, JavaScript" />
+</p>
 
-A liga tem foco em formação crítica, impacto social e **uso ético de IA no desenvolvimento de software**.
+<br>
 
-Organizo as leituras e discussões de artigos, as duplas de pesquisa e a comunicação com integrantes e professores.
+<img width="100%" src="assets/titulo-fora-do-codigo.svg" alt="Fora do código" />
 
----
+- 🦥 **Diretora de Pesquisa da SLOTH**, a Liga Acadêmica de Ética em Engenharia de Software da UFPB Campus IV.
+  Organizo leituras e discussões de artigos, as duplas de pesquisa e a comunicação com integrantes e professores.
+- 📖 Sempre com um livro por perto.
+- 🎸 Nas horas livres, violão.
 
-## 🌱 Aprendendo agora
-
-| | Estudando | Assuntos |
-|---|---|---|
-| ⚛️ | **React** | componentes, estado, hooks e consumo de APIs |
-| ☕ | **Backend Java** | arquitetura, segurança e regras de negócio mais complexas |
-| 🌳 | **Estruturas de dados** | árvores de busca, heaps, HeapSort e Skip List |
-
-**Próximo passo:** TypeScript, para deixar o frontend mais seguro e conectá-lo ao meu backend em Java.
-
----
+<br>
 
 <p align="center">
   <i>"Um sistema bom é aquele que alguém consegue usar no dia mais corrido da semana."</i>
