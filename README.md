@@ -38,26 +38,19 @@ antes de escrever a primeira linha**, e de conseguir explicar cada parte do que 
 
 ## 🚀 Projetos
 
-### 🩺 Vitallis · *projeto pessoal*
+<table width="100%"><tr><td>
 
-Sistema para **profissionais autônomos da saúde**, com contas, pacientes, agendamentos e controle financeiro (cobranças, pagamentos, pacotes de sessões e créditos).
+### 🥟 Galo & Cia
+**Gestão de pastelaria e peixaria** · projeto pessoal · ✅ **em uso real**
 
-- **Multi-tenant:** cada profissional só enxerga os próprios dados, com controle de acesso por conta e papel.
-- **Dinheiro sem erro:** transações garantem que um pagamento nunca fique registrado pela metade.
+Nasceu de uma necessidade da minha família: tirar o controle do caderno. Hoje está no ar, com um painel interno e um cardápio para o cliente pedir pelo WhatsApp.
 
-`Java 25` `Spring Boot` `Spring Security` `JWT (RSA)` `PostgreSQL` `Flyway` `Testcontainers`
+[![Testar a demo](https://img.shields.io/badge/Testar_a_demo-0f766e?style=for-the-badge&logo=githubpages&logoColor=white)](https://cybellesantos-byte.github.io/galo-e-cia-demo/) [![Ver o cardápio](https://img.shields.io/badge/Ver_o_card%C3%A1pio-c2410c?style=for-the-badge&logo=whatsapp&logoColor=white)](https://cybellesantos-byte.github.io/galo-e-cia-demo/cardapio.html) [![Ver o código](https://img.shields.io/badge/Ver_o_c%C3%B3digo-24292f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cybellesantos-byte/galo-e-cia)
 
----
+`Java 25` `Spring Boot` `PostgreSQL` `Flyway` `Testcontainers` `JavaScript` `Docker` `GitHub Actions`
 
-### 🥟 Galo & Cia: gestão de pastelaria e peixaria · *projeto pessoal, em uso real*
-
-Nasceu de uma necessidade da minha família: tirar o controle do caderno. Hoje está **no ar**, com uma parte aberta ao público.
-
-- 🎮 **[Testar a demo do painel](https://cybellesantos-byte.github.io/galo-e-cia-demo/)**
-- 🍽️ **[Ver o cardápio do cliente (demo)](https://cybellesantos-byte.github.io/galo-e-cia-demo/cardapio.html)**
-- 💻 **[Ver o código](https://github.com/cybellesantos-byte/galo-e-cia)**
-
-<sub>Tudo fictício: dá para vender, abrir e fechar o caixa e ver os relatórios. O pedido do cardápio só mostra a mensagem, não envia nada.</sub>
+<details>
+<summary><b>Ver destaques</b></summary>
 
 - **Cardápio público (sem login):** o cliente vê o que tem hoje, escolhe os itens, retirada ou entrega, Pix ou dinheiro, e toca em "Pedir pelo WhatsApp" com o pedido já escrito.
 - **Painel interno (com login):** caixa do dia, vendas, despesas, repasses ao entregador e relatórios, no computador e no celular.
@@ -65,21 +58,56 @@ Nasceu de uma necessidade da minha família: tirar o controle do caderno. Hoje e
 - **Segurança:** login com perfis, proteção contra CSRF e cabeçalho CSP em toda resposta, com um teste que acusa qualquer tela fora da regra.
 - **Aprendizado:** o escopo mudou várias vezes conforme eu entendia melhor o negócio.
 
-`Java 25` `Spring Boot` `PostgreSQL` `Flyway` `Testcontainers` `JavaScript` `Docker` `GitHub Actions`
+<sub>A demo é toda fictícia: dá para vender, abrir e fechar o caixa e ver os relatórios. O pedido do cardápio só mostra a mensagem, não envia nada.</sub>
 
----
+</details>
 
-### 📚 EDUPlanner · *projeto acadêmico em equipe*
+</td></tr></table>
 
-Organizador de estudos com disciplinas, tarefas, eventos, anotações e dashboard.
+<table width="100%"><tr><td>
+
+### 🩺 Vitallis
+**Gestão para profissionais autônomos da saúde** · projeto pessoal
+
+Contas, pacientes, agendamentos e controle financeiro: cobranças, pagamentos, pacotes de sessões e créditos.
+
+![Código privado](https://img.shields.io/badge/C%C3%B3digo_privado-6b7280?style=for-the-badge&logo=github&logoColor=white)
+
+`Java 25` `Spring Boot` `Spring Security` `JWT (RSA)` `PostgreSQL` `Flyway` `Testcontainers`
+
+<details>
+<summary><b>Ver destaques</b></summary>
+
+- **Multi-tenant:** cada profissional só enxerga os próprios dados, com controle de acesso por conta e papel.
+- **Dinheiro sem erro:** transações garantem que um pagamento nunca fique registrado pela metade.
+
+</details>
+
+</td></tr></table>
+
+<table width="100%"><tr><td>
+
+### 📚 EDUPlanner
+**Organizador de estudos** · projeto acadêmico em equipe
+
+Organiza a vida acadêmica num lugar só: disciplinas, tarefas, eventos, anotações e um dashboard com o resumo dos estudos.
+
+![Código privado](https://img.shields.io/badge/C%C3%B3digo_privado-6b7280?style=for-the-badge&logo=github&logoColor=white)
+
+`Java 25` `Javalin` `Thymeleaf` `PostgreSQL` `JDBC` `JWT` `Docker` `GitHub Actions`
+
+<details>
+<summary><b>Ver destaques</b></summary>
 
 - **Backend:** Javalin com páginas em Thymeleaf e acesso ao banco direto por JDBC (pool HikariCP).
 - **Segurança:** login com JWT e senhas protegidas com BCrypt.
 - **Testes e entrega:** JUnit, Mockito e testes HTTP de integração, com pipeline no GitHub Actions.
 
-`Java 25` `Javalin` `Thymeleaf` `PostgreSQL` `JDBC` `JWT` `Docker` `GitHub Actions`
+</details>
 
-<sub>🔒 Alguns repositórios são privados. Posso mostrar o código e explicar as decisões numa conversa.</sub>
+</td></tr></table>
+
+<sub>🔒 Os projetos privados eu mostro numa conversa: abro o código e explico as decisões.</sub>
 
 ---
 
