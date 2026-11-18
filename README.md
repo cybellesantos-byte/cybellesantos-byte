@@ -28,7 +28,7 @@ antes de escrever a primeira linha**, e de conseguir explicar cada parte do que 
 
 ---
 
-## 🛠️ Tecnologias
+## 🛠️ Ferramentas do dia a dia
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=java,spring,postgres,docker,maven,git,github,githubactions,postman,idea,vscode,html,css,bootstrap,js&perline=8" alt="Java, Spring, PostgreSQL, Docker, Maven, Git, GitHub, GitHub Actions, Postman, IntelliJ, VS Code, HTML, CSS, Bootstrap, JavaScript" />
