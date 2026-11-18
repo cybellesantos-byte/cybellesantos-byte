@@ -1,0 +1,250 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" role="img" aria-label="Cybelle Martins, full stack em formação. Céu estrelado com uma constelação ligando computador, livro, estudo e violão. Embaixo, a constelação do que já sei: Java, Spring Boot, Spring Security, APIs REST, JUnit e Mockito, PostgreSQL, Flyway, HTML e CSS, Bootstrap e JavaScript. Chegando, aprendendo agora: React. No horizonte: TypeScript. Aberta a estágio.">
+<defs>
+  <linearGradient id="ceu" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#030712"/>
+    <stop offset=".55" stop-color="#0a1633"/>
+    <stop offset="1" stop-color="#0f1f4d"/>
+  </linearGradient>
+  <radialGradient id="nebulosa1" cx=".78" cy=".45" r=".45">
+    <stop offset="0" stop-color="#7c3aed" stop-opacity=".28"/>
+    <stop offset="1" stop-color="#7c3aed" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="nebulosa2b" cx=".3" cy=".5" r=".45"><stop offset="0" stop-color="#4f46e5" stop-opacity=".2"/><stop offset="1" stop-color="#4f46e5" stop-opacity="0"/></radialGradient>
+  <radialGradient id="nebulosa2" cx=".12" cy=".9" r=".5">
+    <stop offset="0" stop-color="#0891b2" stop-opacity=".22"/>
+    <stop offset="1" stop-color="#0891b2" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="traco" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#22d3ee"/>
+    <stop offset="1" stop-color="#a78bfa"/>
+  </linearGradient>
+  <linearGradient id="letra" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="1" stop-color="#c4b5fd"/>
+  </linearGradient>
+  <linearGradient id="cadente" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+    <stop offset="1" stop-color="#fff"/>
+  </linearGradient>
+  <filter id="brilho" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="3" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <path id="estrela" d="M0,-6 L1.4,-1.4 L6,0 L1.4,1.4 L0,6 L-1.4,1.4 L-6,0 L-1.4,-1.4 Z"/>
+
+
+  <radialGradient id="nebulosa2" cx=".3" cy=".5" r=".45">
+    <stop offset="0" stop-color="#4f46e5" stop-opacity=".22"/>
+    <stop offset="1" stop-color="#4f46e5" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="brilho2" x="-100%" y="-100%" width="300%" height="300%">
+    <feGaussianBlur stdDeviation="3.5" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <path id="estrela2" d="M0,-9 L2.1,-2.1 L9,0 L2.1,2.1 L0,9 L-2.1,2.1 L-9,0 L-2.1,-2.1 Z"/>
+
+  <clipPath id="moldura"><rect width="1000" height="600" rx="20"/></clipPath>
+</defs>
+<style>
+  .ola { font-family: Consolas, 'Courier New', monospace; font-size: 17px; fill: #22d3ee; }
+  .nome { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 58px; font-weight: 700; fill: url(#letra); letter-spacing: -.5px; }
+  .sub { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 30px; font-weight: 300; fill: #a5b4fc; letter-spacing: .5px; }
+  .tag { font-family: Consolas, 'Courier New', monospace; font-size: 13px; fill: #cbd5e1; }
+  .icone { fill: none; stroke: url(#traco); stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+  .ligacao { stroke: #6366f1; stroke-width: 1; stroke-dasharray: 3 5; opacity: .55; }
+  .pisca { transform-box: fill-box; transform-origin: center; animation: pisca 3s ease-in-out infinite; }
+  .p2 { animation-delay: .7s; } .p3 { animation-delay: 1.4s; } .p4 { animation-delay: 2.1s; }
+  @keyframes pisca { 0%, 100% { opacity: .35; transform: scale(.7); } 50% { opacity: 1; transform: scale(1.15); } }
+  .cursor { animation: cursor 1.1s steps(1) infinite; }
+  @keyframes cursor { 50% { opacity: 0; } }
+  .cadente { animation: cai 7s ease-in infinite; opacity: 0; }
+  @keyframes cai {
+    0%, 70% { opacity: 0; transform: translate(0, 0); }
+    74% { opacity: 1; }
+    86% { opacity: 0; transform: translate(260px, 90px); }
+    100% { opacity: 0; transform: translate(260px, 90px); }
+  }
+  .flutua { animation: flutua 6s ease-in-out infinite; }
+  .f2 { animation-delay: 1.5s; } .f3 { animation-delay: 3s; } .f4 { animation-delay: 4.5s; }
+  @keyframes flutua { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+
+
+  .rot { font-family: Consolas, 'Courier New', monospace; font-size: 16px; fill: #e2e8f0; }
+  .zona { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 700; letter-spacing: 1.5px; }
+  .linha { stroke: #818cf8; stroke-width: 1.4; opacity: .7; }
+  .cintila { transform-box: fill-box; transform-origin: center; animation: cintila 3.2s ease-in-out infinite; }
+  .c1 { animation-delay: .5s; } .c2 { animation-delay: 1s; } .c3 { animation-delay: 1.6s; } .c4 { animation-delay: 2.2s; } .c5 { animation-delay: 2.7s; }
+  @keyframes cintila { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: .75; transform: scale(.85); } }
+  .chega { animation: chega 3.6s ease-in-out infinite; }
+  @keyframes chega { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(-12px); } }
+  .ponte { stroke: #67e8f9; stroke-width: 1.4; stroke-dasharray: 4 6; animation: corre 1.2s linear infinite; }
+  @keyframes corre { to { stroke-dashoffset: -20; } }
+  .onda { transform-box: fill-box; transform-origin: center; animation: onda 2s ease-out infinite; }
+  @keyframes onda { from { opacity: .8; transform: scale(.5); } to { opacity: 0; transform: scale(2.2); } }
+  .longe { transform-box: fill-box; transform-origin: center; animation: longe 4s ease-in-out infinite; }
+  .l2 { animation-delay: 1.3s; } .l3 { animation-delay: 2.6s; }
+  @keyframes longe { 0%, 100% { opacity: .25; } 50% { opacity: .7; } }
+  .pulso { transform-box: fill-box; transform-origin: center; animation: pulso 1.6s ease-out infinite; }
+  @keyframes pulso { from { opacity: .7; transform: scale(1); } to { opacity: 0; transform: scale(2.8); } }
+</style>
+<g clip-path="url(#moldura)">
+  <rect width="1000" height="600" fill="url(#ceu)"/>
+  <rect width="1000" height="600" fill="url(#nebulosa1)"/>
+  <rect width="1000" height="600" fill="url(#nebulosa2)"/>
+  <rect y="280" width="1000" height="320" fill="url(#nebulosa2b)"/>
+  <!-- ===== Topo: nome ===== -->
+
+  <!-- Poeira de estrelas -->
+  <g fill="#e2e8f0" opacity=".55">
+    <circle cx="40" cy="30" r=".9"/><circle cx="120" cy="250" r="1"/><circle cx="210" cy="36" r=".8"/>
+    <circle cx="300" cy="240" r="1.1"/><circle cx="380" cy="24" r=".9"/><circle cx="455" cy="252" r=".8"/>
+    <circle cx="520" cy="44" r="1"/><circle cx="560" cy="230" r=".9"/><circle cx="610" cy="20" r=".8"/>
+    <circle cx="700" cy="258" r="1"/><circle cx="760" cy="30" r=".9"/><circle cx="880" cy="22" r="1.1"/>
+    <circle cx="960" cy="250" r=".9"/><circle cx="980" cy="70" r=".8"/><circle cx="15" cy="150" r=".9"/>
+    <circle cx="470" cy="140" r=".7"/><circle cx="830" cy="250" r=".8"/><circle cx="250" cy="130" r=".7"/>
+  </g>
+
+  <!-- Estrelas coloridas -->
+  <g transform="translate(30,70) scale(.9)"><use href="#estrela" class="pisca" fill="#f472b6"/></g>
+  <g transform="translate(170,36) scale(.7)"><use href="#estrela" class="pisca p2" fill="#facc15"/></g>
+  <g transform="translate(342,232) scale(.8)"><use href="#estrela" class="pisca p3" fill="#22d3ee"/></g>
+  <g transform="translate(470,52) scale(1)"><use href="#estrela" class="pisca p4" fill="#a78bfa"/></g>
+  <g transform="translate(540,206) scale(.7)"><use href="#estrela" class="pisca" fill="#34d399"/></g>
+  <g transform="translate(575,92) scale(.6)"><use href="#estrela" class="pisca p2" fill="#fb923c"/></g>
+  <g transform="translate(965,38) scale(.9)"><use href="#estrela" class="pisca p3" fill="#f472b6"/></g>
+  <g transform="translate(975,200) scale(.7)"><use href="#estrela" class="pisca p4" fill="#facc15"/></g>
+  <g transform="translate(700,30) scale(.6)"><use href="#estrela" class="pisca" fill="#22d3ee"/></g>
+  <g transform="translate(220,250) scale(.6)"><use href="#estrela" class="pisca p3" fill="#a78bfa"/></g>
+  <g transform="translate(410,170) scale(.5)"><use href="#estrela" class="pisca p2" fill="#34d399"/></g>
+
+  <!-- Estrela cadente -->
+  <g class="cadente"><rect x="560" y="40" width="70" height="1.6" rx=".8" fill="url(#cadente)" transform="rotate(19 630 41)"/></g>
+
+  <!-- Texto -->
+  <text class="ola" x="64" y="92">&gt; olá, eu sou<tspan class="cursor" fill="#22d3ee"> ▌</tspan></text>
+  <text class="nome" x="60" y="156">Cybelle Martins</text>
+  <text class="sub" x="63" y="202">full stack em formação</text>
+
+  <!-- Constelação: computador, livro, estudo, violão -->
+  <g class="ligacao">
+    <line x1="660" y1="100" x2="790" y2="72"/>
+    <line x1="790" y1="72" x2="905" y2="130"/>
+    <line x1="905" y1="130" x2="770" y2="200"/>
+    <line x1="770" y1="200" x2="660" y2="100"/>
+  </g>
+
+  <g filter="url(#brilho)">
+    <!-- Computador -->
+    <g class="flutua"><g transform="translate(660,100)" class="icone">
+      <rect x="-30" y="-24" width="60" height="38" rx="4"/>
+      <path d="M-38,20 L38,20 L33,27 L-33,27 Z"/>
+      <path d="M-10,-11 L-17,-4 L-10,3 M10,-11 L17,-4 L10,3 M4,-13 L-4,5"/>
+    </g></g>
+
+    <!-- Livro aberto -->
+    <g class="flutua f2"><g transform="translate(790,72)" class="icone">
+      <path d="M0,-12 C-10,-19 -24,-19 -33,-15 L-33,19 C-24,15 -10,15 0,21 C10,15 24,15 33,19 L33,-15 C24,-19 10,-19 0,-12 Z"/>
+      <path d="M0,-12 L0,21"/>
+      <path d="M-25,-7 L-8,-6 M-25,0 L-8,1 M-25,7 L-8,8 M8,-6 L25,-7 M8,1 L25,0"/>
+    </g></g>
+
+    <!-- Capelo de estudante -->
+    <g class="flutua f3"><g transform="translate(770,200)" class="icone">
+      <path d="M0,-16 L36,-3 L0,10 L-36,-3 Z"/>
+      <path d="M-20,3 L-20,15 C-11,22 11,22 20,15 L20,3"/>
+      <path d="M36,-3 L36,14"/>
+      <circle cx="36" cy="17" r="2.5"/>
+    </g></g>
+
+    <!-- Violão -->
+    <g class="flutua f4"><g transform="translate(905,130) rotate(-24) scale(.5)" class="icone" style="stroke-width:4.2">
+      <path d="M0,-60 C30,-60 42,-45 40,-25 C38,-8 28,0 30,12 C33,28 62,38 62,75 C62,110 35,128 0,128 C-35,128 -62,110 -62,75 C-62,38 -33,28 -30,12 C-28,0 -38,-8 -40,-25 C-42,-45 -30,-60 0,-60 Z"/>
+      <circle cx="0" cy="22" r="15"/>
+      <path d="M-7,-58 L-7,-192 L7,-192 L7,-58"/>
+      <path d="M-9,-192 L-12,-230 Q0,-240 12,-230 L9,-192"/>
+      <path d="M-22,92 L22,92"/>
+      <path d="M-3,-190 L-3,90 M3,-190 L3,90" style="stroke-width:1.6"/>
+    </g></g>
+  </g>
+
+  <!-- Nós da constelação -->
+  <g>
+    <g transform="translate(725,86) scale(.7)"><use href="#estrela" class="pisca" fill="#facc15"/></g>
+    <g transform="translate(848,101) scale(.7)"><use href="#estrela" class="pisca p2" fill="#f472b6"/></g>
+    <g transform="translate(838,165) scale(.7)"><use href="#estrela" class="pisca p3" fill="#34d399"/></g>
+    <g transform="translate(715,150) scale(.7)"><use href="#estrela" class="pisca p4" fill="#22d3ee"/></g>
+  </g>
+  <!-- ===== Constelação de tecnologias ===== -->
+  <g transform="translate(100,270)">
+  <g fill="#e2e8f0" opacity=".4">
+    <circle cx="30" cy="40" r=".9"/><circle cx="220" cy="20" r=".8"/><circle cx="360" cy="300" r="1"/>
+    <circle cx="560" cy="40" r=".9"/><circle cx="600" cy="290" r=".8"/><circle cx="780" cy="160" r="1"/>
+    <circle cx="20" cy="270" r=".8"/><circle cx="520" cy="250" r=".7"/><circle cx="680" cy="230" r=".8"/>
+  </g>
+
+  <!-- ===== O que já sei: a constelação ===== -->
+  <g class="linha">
+    <line x1="80" y1="140" x2="170" y2="80"/>
+    <line x1="80" y1="140" x2="140" y2="220"/>
+    <line x1="170" y1="80" x2="260" y2="150"/>
+    <line x1="140" y1="220" x2="260" y2="150"/>
+    <line x1="260" y1="150" x2="270" y2="245"/>
+    <line x1="270" y1="245" x2="390" y2="265"/>
+    <line x1="170" y1="80" x2="310" y2="60"/>
+    <line x1="310" y1="60" x2="400" y2="110"/>
+    <line x1="400" y1="110" x2="470" y2="55"/>
+    <line x1="400" y1="110" x2="470" y2="180"/>
+    <line x1="260" y1="150" x2="470" y2="180"/>
+  </g>
+  <g filter="url(#brilho2)">
+    <g transform="translate(80,140) scale(1.5)"><use href="#estrela2" class="cintila" fill="#facc15"/></g>
+    <g transform="translate(170,80) scale(1.3)"><use href="#estrela2" class="cintila c1" fill="#34d399"/></g>
+    <g transform="translate(140,220) scale(1.2)"><use href="#estrela2" class="cintila c2" fill="#2dd4bf"/></g>
+    <g transform="translate(260,150) scale(1.3)"><use href="#estrela2" class="cintila c3" fill="#22d3ee"/></g>
+    <g transform="translate(310,60) scale(1.2)"><use href="#estrela2" class="cintila c4" fill="#f472b6"/></g>
+    <g transform="translate(270,245) scale(1.3)"><use href="#estrela2" class="cintila c5" fill="#60a5fa"/></g>
+    <g transform="translate(390,265) scale(1.1)"><use href="#estrela2" class="cintila c1" fill="#fb7185"/></g>
+    <g transform="translate(400,110) scale(1.2)"><use href="#estrela2" class="cintila c2" fill="#fb923c"/></g>
+    <g transform="translate(470,55) scale(1.1)"><use href="#estrela2" class="cintila c3" fill="#a78bfa"/></g>
+    <g transform="translate(470,180) scale(1.4)"><use href="#estrela2" class="cintila c4" fill="#fde047"/></g>
+  </g>
+  <text class="rot" x="80" y="172" text-anchor="middle">Java</text>
+  <text class="rot" x="170" y="58" text-anchor="middle">Spring Boot</text>
+  <text class="rot" x="140" y="250" text-anchor="middle">Spring Security</text>
+  <text class="rot" x="244" y="155" text-anchor="end">APIs REST</text>
+  <text class="rot" x="310" y="38" text-anchor="middle">JUnit + Mockito</text>
+  <text class="rot" x="270" y="275" text-anchor="middle">PostgreSQL</text>
+  <text class="rot" x="408" y="270">Flyway</text>
+  <text class="rot" x="416" y="116">HTML + CSS</text>
+  <text class="rot" x="470" y="33" text-anchor="middle">Bootstrap</text>
+  <text class="rot" x="470" y="212" text-anchor="middle">JavaScript</text>
+  <text class="zona" x="28" y="302" fill="#facc15">O QUE JÁ SEI</text>
+
+  <!-- ===== Chegando: React, quase entrando na constelação ===== -->
+  <line class="ponte" x1="486" y1="180" x2="586" y2="170"/>
+  <g transform="translate(600,168)">
+    <g class="chega">
+      <circle class="onda" cx="0" cy="0" r="14" fill="none" stroke="#67e8f9" stroke-width="1.5"/>
+      <use href="#estrela2" transform="scale(1.3)" fill="#67e8f9" filter="url(#brilho2)"/>
+      <text class="rot" x="0" y="34" text-anchor="middle" fill="#67e8f9">React</text>
+    </g>
+  </g>
+  <text class="zona" x="600" y="230" text-anchor="middle" fill="#67e8f9">APRENDENDO AGORA</text>
+
+  <!-- ===== No horizonte: o que pretendo aprender ===== -->
+  <g transform="translate(730,70)"><use href="#estrela2" class="longe" fill="#c4b5fd" transform="scale(.8)"/></g>
+  <text class="rot" x="730" y="98" text-anchor="middle" fill="#a5b4fc" opacity=".75" style="font-size:13px">TypeScript</text>
+  <g transform="translate(770,30)"><use href="#estrela2" class="longe l2" fill="#c4b5fd" transform="scale(.45)"/></g>
+  <g transform="translate(690,30)"><use href="#estrela2" class="longe l3" fill="#c4b5fd" transform="scale(.4)"/></g>
+  <text class="zona" x="730" y="124" text-anchor="middle" fill="#a5b4fc" opacity=".8">NO HORIZONTE</text>
+
+  <!-- Status -->
+  <g transform="translate(616,272)">
+    <rect width="160" height="30" rx="15" fill="#052e2b" stroke="#34d399" stroke-opacity=".6"/>
+    <circle class="pulso" cx="18" cy="15" r="5" fill="#34d399"/>
+    <circle cx="18" cy="15" r="5" fill="#34d399"/>
+    <text class="rot" x="31" y="20" fill="#34d399" style="font-size:13px;font-weight:700">aberta a estágio</text>
+  </g>
+  </g>
+</g>
+</svg>

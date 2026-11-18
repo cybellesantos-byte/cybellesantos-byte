@@ -1,10 +1,6 @@
-<!-- Banner do topo: estante de livros e violão (assets/banner.svg) -->
-<img width="100%" src="assets/banner.svg" alt="Cybelle Martins: full stack em formação. Céu estrelado com uma constelação ligando computador, livro, estudo e violão." />
+<!-- Topo: nome e constelação de tecnologias, num céu só (assets/topo.svg) -->
+<img width="100%" src="assets/topo.svg" alt="Cybelle Martins, full stack em formação. Constelação do que já sei: Java, Spring Boot, Spring Security, APIs REST, JUnit e Mockito, PostgreSQL, Flyway, HTML e CSS, Bootstrap e JavaScript. Aprendendo agora: React. No horizonte: TypeScript. Aberta a estágio." />
 
-<!-- Constelação: o que já sei (ligado), o que estou aprendendo (chegando) e o que vem depois (no horizonte) -->
-<p align="center">
-  <img src="assets/status.svg" width="720" alt="Constelação do que já sei: Java, Spring Boot, APIs REST, Spring Security, PostgreSQL, Flyway, JUnit e Mockito, HTML e CSS, Bootstrap e JavaScript. Chegando, aprendendo agora: React. No horizonte: TypeScript. Aberta a estágio." />
-</p>
 
 <p align="center">
   <a href="https://cybellesantos-byte.github.io/"><img src="https://img.shields.io/badge/Portf%C3%B3lio-0f766e?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfólio" /></a>
