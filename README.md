@@ -18,7 +18,7 @@ na pastelaria da família. Foi lá que aprendi que um sistema só é bom quando 
 problema de quem está do outro lado. Por isso gosto de **entender a regra de negócio
 antes de escrever a primeira linha**, e de conseguir explicar cada parte do que construo.
 
-- 🎯 **Foco:** desenvolvimento **full stack**. Minha base é o backend com Java, e estou construindo o lado do frontend (JavaScript, depois TypeScript e React)
+- 🎯 **Foco:** desenvolvimento **full stack**. Minha base é o backend com Java, e estou construindo o lado do frontend (JavaScript e React, depois TypeScript)
 
 - 🧪 **Me importo com:** testes, segurança e operações que não podem dar errado (como dinheiro)
 
@@ -97,11 +97,11 @@ Organizo as leituras e discussões de artigos, as duplas de pesquisa e a comunic
 
 | | Estudando | Assuntos |
 |---|---|---|
-| 🟨 | **JavaScript** | funções, objetos, protótipos, herança e polimorfismo |
+| ⚛️ | **React** | componentes, estado, hooks e consumo de APIs |
 | ☕ | **Backend Java** | arquitetura, segurança e regras de negócio mais complexas |
 | 🌳 | **Estruturas de dados** | árvores de busca, heaps, HeapSort e Skip List |
 
-**Próximos passos:** TypeScript ➜ React, para construir interfaces completas e conectá-las ao meu backend em Java.
+**Próximo passo:** TypeScript, para deixar o frontend mais seguro e conectá-lo ao meu backend em Java.
 
 ---
 
